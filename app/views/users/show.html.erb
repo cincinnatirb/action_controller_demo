@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @user.username %>
+</p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @user.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @user.last_name %>
+</p>
+
+<p>
+  <strong>Bio:</strong>
+  <%= @user.bio %>
+</p>
+
+<p>
+  <strong>Bicycles:</strong>
+  <%= @user.bicycles %>
+</p>
+
+<p>
+  <strong>Gpa:</strong>
+  <%= @user.gpa %>
+</p>
+
+<p>
+  <strong>Birth date:</strong>
+  <%= @user.birth_date %>
+</p>
+
+<p>
+  <strong>Account expiration:</strong>
+  <%= @user.account_expiration %>
+</p>
+
+<p>
+  <strong>Earthling:</strong>
+  <%= @user.earthling %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

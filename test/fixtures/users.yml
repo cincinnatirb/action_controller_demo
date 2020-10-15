@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: MyString
+  first_name: MyString
+  last_name: MyString
+  bio: MyText
+  bicycles: 1
+  gpa: 1.5
+  birth_date: 2020-10-14
+  account_expiration: 2020-10-14 23:48:45
+  earthling: false
+
+two:
+  username: MyString
+  first_name: MyString
+  last_name: MyString
+  bio: MyText
+  bicycles: 1
+  gpa: 1.5
+  birth_date: 2020-10-14
+  account_expiration: 2020-10-14 23:48:45
+  earthling: false
