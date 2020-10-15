@@ -6,7 +6,6 @@ In this demo we will:
     * Actions/Methods
     * Parameters including Strong Parameters
     * Filters
-    * Flash (with Cookies & Sessions)
 
 **NOTE:** You will eventually be able to watch a presentation of this material.
 
